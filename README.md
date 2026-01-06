@@ -1,29 +1,19 @@
-# Wireframe — Home Page (Role Selection)
+WIREFRAME 01 — HOME (ROLE SELECTION)
 
-## Purpose
-Entry screen that lets the user choose between **Customer** and **Manager** portal.
++------------------------------------------------------------------+
+|  Welcome to SpareB&B                                              |
+|  Please select how you want to continue                           |
++------------------------------------------------------------------+
 
----
++-------------------------------+   +-------------------------------+
+|            CUSTOMER           |   |            MANAGER            |
+|-------------------------------|   |-------------------------------|
+| Book accommodations,          |   | View bookings and manage      |
+| view prices, confirm bookings |   | hotel system overview         |
+|                               |   |                               |
+| [ Go to Customer Portal ]     |   | [ Go to Manager Portal ]      |
++-------------------------------+   +-------------------------------+
 
-## Layout
-
-[Title]
-Welcome to SpareB&B
-
-[Subtitle]
-Please select how you want to continue
-
----------------------------------------------------------
-|  Card: Customer                 |  Card: Manager       |
-|---------------------------------|----------------------|
-| Title: Customer                 | Title: Manager       |
-| Text: Book accommodations,      | Text: View bookings  |
-| view prices, confirm bookings.  | and manage overview. |
-|                                 |                      |
-| [Button: Go to Customer Portal] | [Button: Go to       |
-|                                 |  Manager Portal]     |
----------------------------------------------------------
-
-## Actions
-- Customer button → Customer Portal
-- Manager button → Manager Dashboard
+Actions:
+- Go to Customer Portal  -> Customer Portal page
+- Go to Manager Portal   -> Manager Dashboard page

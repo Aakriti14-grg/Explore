@@ -1,31 +1,29 @@
-## Wireframe 01 — Home / Browse Accommodations
+# Wireframe — Home Page (Role Selection)
 
-**Goal:** Let users browse and filter accommodations.
-
-### Components
-- **Top Nav Bar**
-  - Left: `SpareBnB` (logo/title)
-  - Center: Search input (`Search by name/room number/location`)
-  - Right: Buttons → `My Bookings` | `Manager` (optional)
-
-- **Filters Panel**
-  - Location (dropdown)
-  - Type (Room / Suite / EventSpace)
-  - Check-in date, Check-out date
-  - Guests (stepper)
-  - Price range (slider)
-  - Buttons: `Apply` | `Reset`
-
-- **Results Area**
-  - Accommodation cards (repeat)
-    - Room name + room number
-    - Type badge
-    - Location
-    - Price/night
-    - Availability badge
-    - Button: `View Details`
-
-### Output/Navigation
-- `View Details` → Wireframe 02
+## Purpose
+Entry screen that lets the user choose between **Customer** and **Manager** portal.
 
 ---
+
+## Layout
+
+[Title]
+Welcome to SpareB&B
+
+[Subtitle]
+Please select how you want to continue
+
+---------------------------------------------------------
+|  Card: Customer                 |  Card: Manager       |
+|---------------------------------|----------------------|
+| Title: Customer                 | Title: Manager       |
+| Text: Book accommodations,      | Text: View bookings  |
+| view prices, confirm bookings.  | and manage overview. |
+|                                 |                      |
+| [Button: Go to Customer Portal] | [Button: Go to       |
+|                                 |  Manager Portal]     |
+---------------------------------------------------------
+
+## Actions
+- Customer button → Customer Portal
+- Manager button → Manager Dashboard

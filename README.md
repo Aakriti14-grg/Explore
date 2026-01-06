@@ -1,19 +1,29 @@
 WIREFRAME 01 — HOME (ROLE SELECTION)
 
-+------------------------------------------------------------------+
-|  Welcome to SpareB&B                                              |
-|  Please select how you want to continue                           |
-+------------------------------------------------------------------+
++--------------------------------------------------+
+| Welcome to SpareB&B                              |
+| Please select how you want to continue           |
++--------------------------------------------------+
 
-+-------------------------------+   +-------------------------------+
-|            CUSTOMER           |   |            MANAGER            |
-|-------------------------------|   |-------------------------------|
-| Book accommodations,          |   | View bookings and manage      |
-| view prices, confirm bookings |   | hotel system overview         |
-|                               |   |                               |
-| [ Go to Customer Portal ]     |   | [ Go to Manager Portal ]      |
-+-------------------------------+   +-------------------------------+
++--------------------------------------------------+
+| CUSTOMER                                         |
+|--------------------------------------------------|
+| Book accommodations                              |
+| View prices                                      |
+| Confirm bookings                                 |
+|                                                  |
+| [ Go to Customer Portal ]                        |
++--------------------------------------------------+
+
++--------------------------------------------------+
+| MANAGER                                          |
+|--------------------------------------------------|
+| View bookings                                    |
+| Manage hotel system overview                     |
+|                                                  |
+| [ Go to Manager Portal ]                         |
++--------------------------------------------------+
 
 Actions:
-- Go to Customer Portal  -> Customer Portal page
-- Go to Manager Portal   -> Manager Dashboard page
+- Go to Customer Portal → Customer Portal page
+- Go to Manager Portal  → Manager Dashboard page

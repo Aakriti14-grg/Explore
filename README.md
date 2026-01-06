@@ -1,28 +1,12 @@
-## WIREFRAME 01 — HOME (ROLE SELECTION)
-
-### Header Area
-- Welcome to SpareB&B
-- Instruction: Please select how you want to continue
-
----
-
-### Card: Customer
-- Book accommodations
-- View prices
-- Confirm bookings
-
-[ Button: Go to Customer Portal ]
-
----
-
-### Card: Manager
-- View bookings
-- Manage hotel system overview
-
-[ Button: Go to Manager Portal ]
-
----
-
-### Navigation
-- Customer button → Customer Portal page
-- Manager button → Manager Dashboard page
++-----------------------------------------------------------+
+|                  Welcome to SpareB&B                      |
+|          Please select how you want to continue           |
+|                                                           |
+|  +-----------------------+     +-----------------------+  |
+|  |       Customer        |     |        Manager        |  |
+|  | Book accommodations,  |     | View bookings and     |  |
+|  | view prices...        |     | manage system...      |  |
+|  |                       |     |                       |  |
+|  | [Go to Customer Port] |     | [Go to Manager Port]  |  |
+|  +-----------------------+     +-----------------------+  |
++-----------------------------------------------------------+
